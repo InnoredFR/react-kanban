@@ -10,4 +10,5 @@ module.exports = {
     '^@components/(.*)$': '<rootDir>/src/components/$1',
     '\\.s?css$': 'identity-obj-proxy',
   },
+  testEnvironment: 'jsdom',
 }
